@@ -55,7 +55,7 @@ Facture/
 git clone https://github.com/Nandini390/facture.git
 const API_KEY = "dad202393e024f19a79136eab0f0e656";
 
-🧠 What I Learned
+## 🧠 What I Learned
 How to fetch and parse data from a public API
 Handling asynchronous operations with async/await
 Using template cloning to efficiently render multiple DOM elements
@@ -63,7 +63,7 @@ UI state management (e.g., active nav items)
 Structuring reusable, scalable front-end layouts
 Managing errors and empty responses from APIs
 
-📜 Disclaimer
+## 📜 Disclaimer
 This project is for educational and personal use only. All news data belongs to respective publishers and is powered by NewsAPI.org.
 
 

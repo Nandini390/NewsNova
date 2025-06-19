@@ -52,7 +52,7 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Nandini390/facture.git
+git clone https://github.com/Nandini390/facture.git```
 
 
 <pre> 2. Open the project folder and replace the API key in `script.js`:

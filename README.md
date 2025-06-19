@@ -1,6 +1,6 @@
 # 📰 Facture - Modern News Aggregator
 
-**Facture** is a responsive and dynamic news web application that brings the latest updates from various domains like Finance, Politics, Entertainment, Education, and IPL. Powered by the [NewsAPI](https://newsapi.org), it delivers real-time news articles in an organized card layout with search and filter functionality.
+**Facture** is a responsive and dynamic news web application that brings the latest updates from various domains like Finance, Politics, Entertainment, Education, IPL , etc. Powered by the [NewsAPI](https://newsapi.org), it delivers real-time news articles in an organized card layout with search and filter functionality.
 
 ---
 

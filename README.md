@@ -37,13 +37,13 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 ---
 
 ## 📁 Folder Structure
-
-Facture/
-├── index.html # Main HTML structure
-├── style.css # All CSS styles and responsiveness
-├── script.js # JS logic for API fetch and dynamic DOM
-├── Logo.png # Logo image used in navbar
-└── README.md # Project documentation
+<pre><code>Facture/
+├── index.html    # Main HTML structure
+├── style.css     # All CSS styles and responsiveness
+├── script.js     # JS logic for API fetch and dynamic DOM
+├── Logo.png      # Logo image used in navbar
+└── README.md     # Project documentation
+ </code></pre>
 
 
 ---
@@ -53,17 +53,46 @@ Facture/
 1. Clone this repository:
 ```bash
 git clone https://github.com/Nandini390/facture.git
-const API_KEY = "dad202393e024f19a79136eab0f0e656";
+
+
+<pre> 2. Open the project folder and replace the API key in `script.js`:
+```const API_KEY = "your_actual_api_key_here";```</pre?
+
+3. Open the index.html file in your browser.
+✅ No additional setup or installation required.
+
+---
 
 ## 🧠 What I Learned
-How to fetch and parse data from a public API
-Handling asynchronous operations with async/await
-Using template cloning to efficiently render multiple DOM elements
-UI state management (e.g., active nav items)
-Structuring reusable, scalable front-end layouts
-Managing errors and empty responses from APIs
 
-## 📜 Disclaimer
-This project is for educational and personal use only. All news data belongs to respective publishers and is powered by NewsAPI.org.
+Throughout the development of this project, I explored several important frontend concepts, including:
+
+- ✅ How to **fetch and parse data from a public API**
+- ✅ Handling **asynchronous operations** using `async/await`
+- ✅ Efficient DOM rendering using **template cloning**
+- ✅ Managing **UI state**, such as highlighting the active navigation tab
+- ✅ Structuring a **scalable and reusable layout** using Flexbox
+- ✅ Designing a **responsive search bar and cards layout**
+- ✅ Handling **empty or broken API responses** gracefully
+
+This project helped me improve my understanding of frontend flow — from layout to interactivity — using only HTML, CSS, and JavaScript.
+
+---
+
+## 📬 Feedback
+
+I'm always open to suggestions and improvements.  
+If you find any bugs or have ideas to enhance the project, feel free to open an issue or reach out.
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/nandini-giri-71670635b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvebXDSFcQnOLSFyalrJBew%3D%3D)  
+✨ Let’s collaborate and grow together!
+
+---
+
+## 📄 License
+
+This project is intended for **educational and personal use only**.  
+All news content belongs to their respective copyright holders.  
+No part of this project is affiliated with or endorsed by any news organization.
 
 

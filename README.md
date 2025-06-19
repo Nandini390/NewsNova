@@ -26,11 +26,10 @@
 
 ## 📁 Project Structure
 Facture/
-│
 ├── index.html # Main HTML page
 ├── style.css # CSS styles
 ├── script.js # JavaScript logic
-├── /Logo.png # Company logo image
+├── Logo.png # Company logo image
 └── README.md # Project documentation
 
 

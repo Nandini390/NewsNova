@@ -51,8 +51,10 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 ## 🚀 How to Run Locally
 
 1. Clone this repository:
-```bash
-git clone https://github.com/Nandini390/facture.git```
+<pre><code>
+ git clone https://github.com/Nandini390/facture.git
+</code></pre>
+
 
 
 <pre> 2. Open the project folder and replace the API key in `script.js`:

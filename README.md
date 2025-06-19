@@ -1,84 +1,69 @@
-# 📰 Facture - Modern News Aggregator
+# 🗞️ Facture – News at Your Fingertips
 
-**Facture** is a responsive and dynamic news web application that brings the latest updates from various domains like Finance, Politics, Entertainment, Education, IPL , etc. Powered by the [NewsAPI](https://newsapi.org), it delivers real-time news articles in an organized card layout with search and filter functionality.
-
----
-
-## 🚀 Features
-
-- ✅ Fetches real-time news using NewsAPI
-- 🔍 Search bar to look up specific topics
-- 📑 Categorized navigation (IPL, Finance, Politics, Entertainment, Education)
-- 📱 Fully responsive layout for all screen sizes
-- 🖱️ Hover and active effects for better UX
-- 📄 Uses template cloning to dynamically generate news cards
+**Facture** is a sleek and responsive news aggregator web app that allows users to explore real-time headlines from various categories such as IPL, Finance, Politics, Entertainment, Education, etc. Built with **HTML, CSS, and JavaScript**, the project integrates the **NewsAPI** to fetch live news and presents it through dynamic cards.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Project Goal
 
-- **HTML5** – Semantic structure of the webpage
-- **CSS3** – Styling and layout, Flexbox
-- **JavaScript (ES6)** – DOM manipulation, API integration
-- **NewsAPI** – For fetching latest news articles
+To create a clean and minimal news web interface that delivers a user-friendly reading experience. The project focuses on:
+- Structuring web pages with semantic HTML
+- Designing responsive layouts with Flexbox
+- Using JavaScript to fetch external API data and render it dynamically
+- Handling user interactions such as navigation clicks and search queries
 
 ---
 
-## 📁 Project Structure
+## ✨ Key Features
+
+| Component            | Details |
+|----------------------|---------|
+| 🔍 **Search Bar**    | Search for any news topic in real time |
+| 📚 **Category Filters** | Clickable categories (e.g., Finance, Politics, etc.) that fetch and display filtered news |
+| 📄 **Dynamic Cards** | Automatically generated news cards with image, title, description, source, and timestamp |
+| 🧠 **Active State UI** | Highlights the currently selected navigation tab |
+| 💡 **Template Cloning** | Uses HTML `<template>` to dynamically inject news content |
+| 📱 **Responsive Design** | Optimized for both desktop and mobile viewports |
+
+---
+
+## 🔧 Technologies Used
+
+- **HTML5** – Markup structure
+- **CSS3** – Styling, layout, responsiveness
+- **JavaScript (ES6)** – DOM manipulation, API handling
+- **[NewsAPI](https://newsapi.org)** – For real-time news data
+
+---
+
+## 📁 Folder Structure
+
 Facture/
-├── index.html # Main HTML page
-├── style.css # CSS styles
-├── script.js # JavaScript logic
-├── Logo.png # Company logo image
+├── index.html # Main HTML structure
+├── style.css # All CSS styles and responsiveness
+├── script.js # JS logic for API fetch and dynamic DOM
+├── Logo.png # Logo image used in navbar
 └── README.md # Project documentation
 
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 How to Run Locally
 
-1. **Clone the Repository**
-
+1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/facture.git
-cd facture
+git clone https://github.com/Nandini390/facture.git
+const API_KEY = "dad202393e024f19a79136eab0f0e656";
 
-Obtain NewsAPI Key
-Visit https://newsapi.org
-Register and get your API key
-Replace the placeholder API key in script.js:
-const API_KEY = "your_actual_api_key_here";
+🧠 What I Learned
+How to fetch and parse data from a public API
+Handling asynchronous operations with async/await
+Using template cloning to efficiently render multiple DOM elements
+UI state management (e.g., active nav items)
+Structuring reusable, scalable front-end layouts
+Managing errors and empty responses from APIs
 
-Open in Browser
-
-Just open index.html in any modern web browser (Chrome, Edge, Firefox).
-
-📸 Screenshots
-🖼️ Home Page
-Displays real-time news with categories.
-
-🔍 Search Results
-Search functionality displaying filtered articles.
-
-📌 TO-DO
- Add pagination or infinite scroll
- Implement loading animation
- Add dark mode toggle
- Deploy on GitHub Pages / Netlify
-
-🤝 Contributing
-Contributions are welcome! Feel free to fork the project, create a branch, make changes, and submit a pull request.
-git checkout -b feature-name
-
-📄 License
-This project is licensed under the MIT License.
-
-💡 Acknowledgements
-NewsAPI for free news data
-
-Poppins & Roboto Fonts
-
-UI inspired by modern minimal news platforms
-
+📜 Disclaimer
+This project is for educational and personal use only. All news data belongs to respective publishers and is powered by NewsAPI.org.
 
 

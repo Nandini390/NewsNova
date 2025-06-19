@@ -58,7 +58,7 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 
 
 <pre> 2. Open the project folder and replace the API key in `script.js`:
-```const API_KEY = "your_actual_api_key_here";```</pre?
+```const API_KEY = "your_actual_api_key_here";```</pre>
 
 3. Open the index.html file in your browser.
 ✅ No additional setup or installation required.

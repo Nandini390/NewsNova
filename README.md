@@ -1,6 +1,6 @@
-# 🗞️ Facture – News at Your Fingertips
+# 🗞️ NewsNova – News at Your Fingertips
 
-**Facture** is a sleek and responsive news aggregator web app that allows users to explore real-time headlines from various categories such as IPL, Finance, Politics, Entertainment, Education, etc. Built with **HTML, CSS, and JavaScript**, the project integrates the **NewsAPI** to fetch live news and presents it through dynamic cards.
+**NewsNova** is a sleek and responsive news aggregator web app that allows users to explore real-time headlines from various categories such as IPL, Finance, Politics, Entertainment, Education, etc. Built with **HTML, CSS, and JavaScript**, the project integrates the **NewsAPI** to fetch live news and presents it through dynamic cards.
 
 ---
 
@@ -37,7 +37,7 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 ---
 
 ## 📁 Folder Structure
-<pre><code>Facture/
+<pre><code>NewsNova/
 ├── index.html    # Main HTML structure
 ├── style.css     # All CSS styles and responsiveness
 ├── script.js     # JS logic for API fetch and dynamic DOM
@@ -52,7 +52,7 @@ To create a clean and minimal news web interface that delivers a user-friendly r
 
 1. Clone this repository:
 <pre><code>
- git clone https://github.com/Nandini390/facture.git
+ git clone https://github.com/Nandini390/NewsNova.git
 </code></pre>
 
 

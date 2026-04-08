@@ -1,5 +1,4 @@
-const API_KEY="dad202393e024f19a79136eab0f0e656";
-const API_URL="https://newsapi.org/v2/everything?q=";
+const API_URL="/api/news?q=";
 
 window.addEventListener('load', ()=> fetchNews("World"));
 async function fetchNews(query){
